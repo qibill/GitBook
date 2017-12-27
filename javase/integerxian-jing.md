@@ -35,9 +35,22 @@ public static Integer valueOf(int i) {
 }
 ```
 
-
-
 简单地解释这段代码，就是如果传入的int在IntegerCache.low和IntegerCache.high之间，那就尝试看前面的缓存中有没有打过包的相同的值，如果有就直接返回，否则就创建一个Integer实例。IntegerCache.low 默认是-128；IntegerCache.high默认是127.
 
 注：如果要比较两个对象的内容是否相同，尽量不使用== 或者!= 来比较，可以使用equal\(\)来实现。
+
+### 其它的包装器：
+
+* Boolean：\(全部缓存\)
+
+* Byte：\(全部缓存\)
+
+* 
+* Character\( &lt;= 127缓存\)
+* Short\(-128 — 127缓存\)
+* Long\(-128 — 127缓存\)
+* 
+* Float\(没有缓存\)
+* Doulbe\(没有缓存\)
+
 
