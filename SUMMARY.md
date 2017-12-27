@@ -17,8 +17,8 @@
 
 * [书写顺序与执行顺序](mysql/shu-xie-shun-xu-yu-zhi-xing-shun-xu.md)
 * [错误代码](mysql/error-code.md)
-  * [错误代码： 1242](mysql/error-code/cuo-wu-dai-ma-ff1a-1242.md)
-  * [错误代码： 1248](mysql/cuo-wu-dai-ma-ff1a-1248.md)
+  * [错误代码： 1242](mysql/error-code/error-code-1242.md)
+  * [错误代码： 1248](mysql/error-code/error-code-1248.md)
 
 ## JavaEE
 
