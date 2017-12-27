@@ -4,8 +4,7 @@ Every derived table must have its own alias 每个表必须有自己的别名
 
 ## 错误语句
 
-
-```
+```Mysql
 update integralexchange
 set surplus_num =0
 where ie_id in
@@ -26,8 +25,7 @@ where ie_id in
 
 ## 解决办法
 
-
-```
+```Mysql
 update integralexchange
 set surplus_num =0
 where ie_id in
@@ -41,3 +39,6 @@ where ie_id in
             where need_money >500 
             and groupnum=2)) a);
 ```
+
+
+
