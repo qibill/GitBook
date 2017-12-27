@@ -9,6 +9,7 @@
 ## JavaWeb
 
 * [原生态的jdbc代码](yuan-sheng-tai-de-jdbc-dai-ma.md)
+* [原生态的jdbc代码](yuan-sheng-tai-de-jdbc-dai-ma.md)
 
 ## JavaEE
 
