@@ -5,11 +5,9 @@
 ## JavaSE
 
 * [Integer陷阱](javase/Trap-Of-Integer.md)
-
-## 同步
-
-* [打印机交替打印](synchronized/ Printer-Alternately-Printing.md)
-* [生产者与消费者问题](synchronized/Producer-And-Consumer.md)
+* [同步](javase/synchronized.md)
+  * [打印机交替打印](javase/synchronized/Printer-Alternately-Printing.md)
+  * [生产者与消费者问题](javase/synchronized/Producer-And-Consumer.md)
 
 ## JavaWeb
 

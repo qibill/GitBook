@@ -1,4 +1,4 @@
-# 错误代码： 1093 {#错误代码-1093}
+# 错误代码： 1093
 
 You can't specify target table 'TEST\_NOIDX' for update in FROM clause
 
