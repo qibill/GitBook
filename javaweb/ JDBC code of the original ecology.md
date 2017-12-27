@@ -11,9 +11,10 @@ public class jdbc {
             //1、加载数据库驱动
             Class.forName("com.mysql.jdbc.Driver");
             //2、通过驱动管理类获取数据库链接
-            connection =  DriverManager.getConnection("jdbc:mysql://localhost:3306/mybatis?characterEncoding=utf-8", "root", "root");
+            connection =  DriverManager.
+                getConnection("jdbc:mysql://localhost:3306/mybatis?characterEncoding=utf-8", "root", "root");
             //3、定义sql语句 ?表示占位符
-        String sql = "select * from user where username = ?";
+            String sql = "select * from user where username = ?";
             //4、获取预处理statement
             preparedStatement = connection.prepareStatement(sql);
             //5、设置参数，第一个参数为sql语句中参数的序号（从1开始），第二个参数为设置的参数值
@@ -22,7 +23,7 @@ public class jdbc {
             resultSet =  preparedStatement.executeQuery();
             //7、遍历查询结果集
             while(resultSet.next()){
-                User user 
+                User user;
                 System.out.println(resultSet.getString("id")+"  "+resultSet.getString("username"));
             }
         } catch (Exception e) {
