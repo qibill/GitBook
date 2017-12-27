@@ -11,7 +11,7 @@
 
 ## JavaWeb
 
-* [原生态的jdbc代码](yuan-sheng-tai-de-jdbc-dai-ma.md)
+* [原生态的jdbc代码](javaweb/ JDBC code of the original ecology.md)
 
 ## Mysql
 
@@ -22,8 +22,8 @@
 
 ## JavaEE
 
-* [Mybaits对数据库中的clob类型读取问题](mybaitsdui-shu-ju-ku-zhong-de-clob-lei-xing-du-qu-wen-ti.md)
-* [struts2和sprigmvc的区别](struts2he-sprigmvc-de-qu-bie.md)
-* [查看json出现406错误](cha-kan-json-chu-xian-406-cuo-wu.md)
-* [Interceptor Of Spring](interceptor-of-spring.md)
+* [struts2和sprigmvc的区别](javaee/struts2he-sprigmvc-de-qu-bie.md)
+* [Mybaits对数据库中的clob类型读取问题](javaee/mybaitsdui-shu-ju-ku-zhong-de-clob-lei-xing-du-qu-wen-ti.md)
+* [查看json出现406错误](javaee/cha-kan-json-chu-xian-406-cuo-wu.md)
+* [spring拦截器](javaee/interceptor-of-spring.md)
 
