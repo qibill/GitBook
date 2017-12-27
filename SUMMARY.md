@@ -6,9 +6,12 @@
 
 * [Integer陷阱](javase/integerxian-jing.md)
 
+## 同步
+
+* [打印机交替打印](tong-bu/da-yin-ji-jiao-ti-da-yin.md)
+
 ## JavaWeb
 
-* [原生态的jdbc代码](yuan-sheng-tai-de-jdbc-dai-ma.md)
 * [原生态的jdbc代码](yuan-sheng-tai-de-jdbc-dai-ma.md)
 
 ## JavaEE
