@@ -18,6 +18,8 @@
 ## Mysql
 
 * [书写顺序与执行顺序](mysql/shu-xie-shun-xu-yu-zhi-xing-shun-xu.md)
+* [错误代码： 1093](mysql/cuo-wu-dai-ma-ff1a-1093.md)
+* [错误代码： 1248](mysql/cuo-wu-dai-ma-ff1a-1248.md)
 
 ## JavaEE
 
