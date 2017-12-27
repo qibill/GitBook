@@ -15,6 +15,10 @@
 
 * [原生态的jdbc代码](yuan-sheng-tai-de-jdbc-dai-ma.md)
 
+## Mysql
+
+* [书写顺序与执行顺序](mysql/shu-xie-shun-xu-yu-zhi-xing-shun-xu.md)
+
 ## JavaEE
 
 * [Mybaits对数据库中的clob类型读取问题](mybaitsdui-shu-ju-ku-zhong-de-clob-lei-xing-du-qu-wen-ti.md)
