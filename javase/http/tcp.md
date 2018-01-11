@@ -28,8 +28,10 @@ public class TCP {
             outputStream = socket.getOutputStream();
             // 3.具体的输出过程
             outputStream.write("我是客户端".getBytes());
+            
             // 4.shutdownOutput():执行此方法，显式的告诉服务端发送完毕！
             socket.shutdownOutput();
+            
             inputStream = socket.getInputStream();
             byte[] b = new byte[20];
             int len;
