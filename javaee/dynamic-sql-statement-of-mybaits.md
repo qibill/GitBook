@@ -1,46 +1,41 @@
 # Mybaits的动态SQL语句
 
 ```xml
-  <update id="updateByExampleSelective" parameterType="map" >
+  <update id="updateByPrimaryKeySelective" parameterType="com.taotao.pojo.TbItem" >
     update tb_item
     <set >
-      <if test="record.id != null" >
-        id = #{record.id,jdbcType=BIGINT},
+      <if test="title != null" >
+        title = #{title,jdbcType=VARCHAR},
       </if>
-      <if test="record.title != null" >
-        title = #{record.title,jdbcType=VARCHAR},
+      <if test="sellPoint != null" >
+        sell_point = #{sellPoint,jdbcType=VARCHAR},
       </if>
-      <if test="record.sellPoint != null" >
-        sell_point = #{record.sellPoint,jdbcType=VARCHAR},
+      <if test="price != null" >
+        price = #{price,jdbcType=BIGINT},
       </if>
-      <if test="record.price != null" >
-        price = #{record.price,jdbcType=BIGINT},
+      <if test="num != null" >
+        num = #{num,jdbcType=INTEGER},
       </if>
-      <if test="record.num != null" >
-        num = #{record.num,jdbcType=INTEGER},
+      <if test="barcode != null" >
+        barcode = #{barcode,jdbcType=VARCHAR},
       </if>
-      <if test="record.barcode != null" >
-        barcode = #{record.barcode,jdbcType=VARCHAR},
+      <if test="image != null" >
+        image = #{image,jdbcType=VARCHAR},
       </if>
-      <if test="record.image != null" >
-        image = #{record.image,jdbcType=VARCHAR},
+      <if test="cid != null" >
+        cid = #{cid,jdbcType=BIGINT},
       </if>
-      <if test="record.cid != null" >
-        cid = #{record.cid,jdbcType=BIGINT},
+      <if test="status != null" >
+        status = #{status,jdbcType=TINYINT},
       </if>
-      <if test="record.status != null" >
-        status = #{record.status,jdbcType=TINYINT},
+      <if test="created != null" >
+        created = #{created,jdbcType=TIMESTAMP},
       </if>
-      <if test="record.created != null" >
-        created = #{record.created,jdbcType=TIMESTAMP},
-      </if>
-      <if test="record.updated != null" >
-        updated = #{record.updated,jdbcType=TIMESTAMP},
+      <if test="updated != null" >
+        updated = #{updated,jdbcType=TIMESTAMP},
       </if>
     </set>
-    <if test="_parameter != null" >
-      <include refid="Update_By_Example_Where_Clause" />
-    </if>
+    where id = #{id,jdbcType=BIGINT}
   </update>
 ```
 
