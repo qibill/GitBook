@@ -28,7 +28,8 @@
 ## JavaEE
 
 * [struts2和sprigmvc的区别](javaee/struts2he-sprigmvc-de-qu-bie.md)
+* [spring拦截器](javaee/interceptor-of-spring.md)
 * [Mybaits对数据库中的clob类型读取问题](javaee/mybaitsdui-shu-ju-ku-zhong-de-clob-lei-xing-du-qu-wen-ti.md)
 * [查看json出现406错误](javaee/cha-kan-json-chu-xian-406-cuo-wu.md)
-* [spring拦截器](javaee/interceptor-of-spring.md)
+* [Mybaits的动态SQL语句](javaee/dynamic-sql-statement-of-mybaits.md)
 
